@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+if(!$_SESSION["Ingreso"]){
+
+	header("location:index.php?ruta=ingreso");
+
+}
+
+?>
+
 <br>
 <h1>Empleados</h1>
 
